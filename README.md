@@ -62,7 +62,7 @@ A clean and modern personal portfolio website showcasing my skills, projects, an
 
 * Email: \[[avijai2004@gmail.com](mailto:avijai2004@gmail.com)]
 * LinkedIn: \[www.linkedin.com/in/avi-jaiswal12/]
-* GitHub: \[[github.com/AviralJaiswal](www.github.com/AviralJaiswal)]
+* GitHub: \[[github.com/AviralJaiswal](https://github.com/AviralJaiswal)]
 
 ---
 
@@ -71,6 +71,7 @@ A clean and modern personal portfolio website showcasing my skills, projects, an
 ---
 
 [Portfolio_Website](http://127.0.0.1:5500/My_Portfolio/index.html)
+
 
 
 
