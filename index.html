@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aviral's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e2a4c243e8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="cooltext453381197098418.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext">
+          <h1>Hey there, It's <span>Aviral Jaiswal</span></h1>
+          <p>Ex-SDE Intern @SMARTUPX Technologies</p>
+          <span id="element"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------About-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="about.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> 
+                        <p>
+  Hi, I’m <strong>Aviral Jaiswal</strong>, a Computer Science undergraduate at 
+  SRM Institute of Science and Technology with a strong interest in 
+  <em>full-stack development, problem solving,</em> and <em>machine learning</em>. 
+  I enjoy building applications that are both practical and user-friendly, blending 
+  technical depth with creativity.
+</p>
+
+<p>
+  I’ve gained hands-on experience through internships and projects, such as developing 
+  full-stack applications with Django and React, designing scalable e-commerce platforms, 
+  and exploring machine learning models for creative applications. My skills span across 
+  C++, Python, SQL, JavaScript, and frameworks like Next.js, Django, and MongoDB.
+</p>
+
+<p>
+  Beyond academics, I’ve solved 500+ coding problems on platforms like LeetCode and 
+  CodeChef, participated in Amazon’s ML Summer School, and earned certifications in 
+  cloud computing and cybersecurity.
+</p>
+
+<p>
+  When I’m not coding, you’ll probably find me on the football field or at a chessboard—two 
+  places where strategy, focus, and quick thinking matter just as much as in tech.
+</p>
+                    </p>
+                    <div class="tabtitles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks "onclick="opentab('experience')">Achievements / Certifications</p>
+                        <p class="tablinks"onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabcontents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML / CSS / JavaScript / React.js / Django</span><br>Web Devlopment</li>
+                            <li><span>C / C++ / Python / SQL</span><br>Programming Languages</li>
+                            <li><span> Android Studio, Git, Atlassian Confluence Space, VS Code, Anaconda (Spyder).</span><br>Developer Tools</li>
+                            <li><span> DSA, DBMS, OOPS, Computer Networks, Operating System, Machine Learning.</span><br>Course Fundamentals</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>◦ NPTEL Certification - Cloud Computing</span><br></li>
+                            <li><span>◦ Volunteered as Web Development Instructor and Counsellor - @Vidya and Child</span><br></li>
+                            <li><span>◦ Software Development & Full-Stak Web Applications - @SMARTUPX</span><br></li>
+                            <li><span>◦ India_Internship_GEHU_CYBERSECURITY_ESSENTIALS1 - Cisco</span><br></li>
+                            <li><span>◦ 500+ Coding Questions across platforms like LeetCode, GFG and Coding Ninjas</span><br></li>
+                            
+                        </ul>
+                    </div>
+    
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2022-2026</span><br>B.TECH in Computer Science - 9.15 CGPA<br>
+                                SRM Institute of Science and Technology Kattankulathur</li>
+                            <li><span>2022</span><br>12th C.B.S.E - 90.8%<br>Salwan Public School</li>
+                            <li><span>2020</span><br>10th C.B.S.E - 87% <br> Amity International School</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------Serivces----------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Work Experience</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <!-- <img src="Cadence.jpg"> -->
+                    <h2>Software Engineer Intern - SMARTUPX TECHNOLOGIES </h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/in/avi-jaiswal12/" target="_blank">Know more</a>
+                </div>
+                <div id="codeclause">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web-dev Instructor and Counsellor - Vidya & Child</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/posts/avi-jaiswal12_givingback-techforgood-webdesignskills-activity-7243663948141486081-FcoX/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD4dNjcBM4mU0toEWwsJprRdk81AYngCgyw" target="_blank">Know more</a>
+                </div>
+                <div id="amazonml">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Mentee (Apprenticeship) - Amazon ML<br> Summer School</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/in/avi-jaiswal12//" target="_blank">Know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Work Experience--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="anxietybrain.jpg" alt="">
+                    <div class="layer">
+                        <h3>EmoSupport: A Comparative Study for the Analysis of Mental Health of Undergraduate Students</h3>
+                        <!-- <p>This research project explores the application of various machine learning algorithms, including Logistic Regression, Support Vector Machines, Decision Trees, Naive Bayes, K Nearest Neighbors, and Random Forests, for predicting and assessing stress, anxiety, and depression levels based on survey responses</p> -->
+                        <a href="https://github.com/Anmol012001/EmoSupport-A-Comparative-Study-for-the-Analysis-of-Mental-Health-of-Undergraduate-Students" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="botnet.jpg" alt="">
+                    <div class="layer">
+                        <h3>Iot Botnet Classification and Detection</h3>
+                        <p>Developed and compared multiple
+                            Machine Learning models to detect malicious and benign traffic in various IOT devices like webcam etc.</p>
+                        <a href="https://github.com/Anmol012001/Iot-Botnet-Classification-and-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ccfd.jpg" alt="">
+                    <div class="layer">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p> Developed a Machine Learning model for testing
+                            whether the fraud has occurred or not using Logistic Regression achieving a accuracy rate of 94%.</p>
+                        <a href="https://github.com/AviralJaiswal/Credit-Card-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gym.PNG" alt="">
+                    <div class="layer">
+                        <h3> Gym Portal Landing Page</h3>
+                        <p>  Designed and developed an Frontend Website of a Gym Portal using
+                            HTML, CSS, and JavaScript.</p>
+                        <a href="https://github.com/Anmol012001/Basic-Landing-Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mentalanxiety.PNG" alt="">
+                    <div class="layer">
+                        <h3>Mental Health Quiz App</h3>
+                        <p> Create a user-friendly mental health quiz app using Kotlin to assess and promote mental well-being through engaging questions and insightful feedback.</p>
+                        <a href="https://github.com/Anmol012001/MentalHealthApp/tree/master" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="clock.jpg" alt="">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p> Build an elegant analog clock using HTML, CSS, and JavaScript for a visually appealing representation of time.</p>
+                        <a href="https://github.com/Anmol012001/Clock" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- --------------------Coding Profiles---------------------- -->
+
+    <div id="coding">
+        <div class="container">
+            <h1 class="sub-title">Coding Profiles</h1>
+            <div class="coding-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="leetcode.png">
+                    <h2>Leetcode</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://leetcode.com/u/itsaviraljaiswal/" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="gfg.jpg" alt="">
+                    <h2>HackerRank</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.hackerrank.com/profile/aj6085" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="cn.jpg" alt="">
+                    <h2>Coding Ninjas</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.naukri.com/code360/profile/75bd3375-9ae4-4cb1-b169-53ee185f29f1"target="_blank">Click Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>avijai2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8076504764</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/avi-jaiswal12/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AviralJaiswal"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-telegram"></i></a> -->
+                        <a href="https://www.instagram.com/itsaviraljaiswal/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Resume-J.pdf" download class="btn btn2">Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thanks for viewing my Portoflio <i class="fa-solid fa-heart"></i> Aviral</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- For Animation of my name -->
+    <script src="https://npkg.comu/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["I'm an aspiring Web Developer<br> and Software Developer."],
+        typeSpeed: 70,
+      });
+    </script>
+
+    <script>
+        
+        let tablinks = document.getElementsByClassName("tablinks");
+        let tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var side = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right = "0";
+        }
+
+        function closemenu(){
+            side.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgkVqDPUL93TKdujqYtaT1_61cTcF0dE270-XqBnpOxBJGr6XBEqJHEszC1G_mRS10jw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mssg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                mssg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    mssg.innerHTML = ""
+                },4500)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+  </body>
+</html>
