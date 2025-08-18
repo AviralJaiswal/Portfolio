@@ -50,8 +50,12 @@ A clean and modern personal portfolio website showcasing my skills, projects, an
 
 ## 📸 Preview
 
-(Add a screenshot of your portfolio here, e.g., `![Portfolio Screenshot](assets/portfolio-preview.png)`)
 <img width="1881" height="852" alt="image" src="https://github.com/user-attachments/assets/8a37ba4a-cede-4607-902d-d91dcd467d9b" />
+<br>
+<img width="1786" height="802" alt="image" src="https://github.com/user-attachments/assets/6c97d713-2e34-4fe3-a8c9-2fe503244942" />
+
+
+
 
 
 ## 📬 Contact
@@ -67,6 +71,7 @@ A clean and modern personal portfolio website showcasing my skills, projects, an
 ---
 
 [Portfolio_Website](http://127.0.0.1:5500/My_Portfolio/index.html)
+
 
 
 
