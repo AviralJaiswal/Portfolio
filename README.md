@@ -70,7 +70,7 @@ A clean and modern personal portfolio website showcasing my skills, projects, an
 
 ---
 
-[Portfolio_Website](http://127.0.0.1:5500/My_Portfolio/index.html)
+[🌐 Visit my Portfolio](https://aviraljaiswal.github.io/Portfolio/)
 
 
 
